@@ -9,6 +9,7 @@ import {
   ContactWrapper,
 } from "./AboutElements";
 import ScrollAnimation from "react-animate-on-scroll";
+
 function About() {
   return (
     <ContactWrapper id="about">
@@ -23,36 +24,24 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Pedro Muniz</strong>. I'm originally from Brazil and have been living in Canada for the past three years. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
+            Hello! My name is <strong>Meghraj Jogdand</strong>. I'm a dedicated and skilled Embedded Hardware Engineer with over 1 year of experience and a passion for developing cutting-edge IoT solutions.
             </ScrollAnimation>
 
             <br /><br />
             
             <ScrollAnimation animateIn="fadeInLeft">
-            My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Systems Technology program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program.
-            Throughout my studies at BCIT, I had the opportunity to engage in fascinating projects. Notably, I contributed to the development of the RENR Safety App and MyMind, projects that garnered recognition from my colleagues, instructors, and clients alike.
+            My journey in technology began with my studies in Electronics and Telecommunication Engineering at MIT Academy of Engineering, Pune. Throughout my academic career and professional experiences, I've had the opportunity to work on fascinating projects that have enhanced my skills in designing, programming, and testing projects aimed at improving connectivity and automation across diverse industries.
             </ScrollAnimation>
 
             <br /><br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.
-              <div className="tagline2">
-                I have become confident using the following technologies:
-              </div>
+              I've had the privilege of working with companies like EasyReach Private Limited and Tork Motors, where I've contributed to innovative IoT solutions and EV development. My experiences have reinforced my passion for embedded systems and IoT, and I'm excited to continue exploring new challenges in these fields.
+           
             </ScrollAnimation>
             
 
-            <Technologies>
-              {stackList.map((stack, index) => (
-                <ScrollAnimation animateIn="fadeInLeft" key={index}>
-                  <Tech key={index} className="tech">
-                    <TechImg src={stack.img} alt={stack.name} />
-                    <TechName>{stack.name}</TechName>
-                  </Tech>
-                </ScrollAnimation>
-              ))}
-            </Technologies>
+            
           </div>
 
         </div>

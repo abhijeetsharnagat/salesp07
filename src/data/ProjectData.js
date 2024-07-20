@@ -1,49 +1,31 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyYSAtEnnjNnK1Ez1Ng6UeA9MvVA-REVSPKA&s",
+    title: "Advanced Driver Assistance System (ADAS)",
     description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
+      "Collaborated with Volkswagen Company to develop an Advanced Driver Assistance System aimed at reducing road fatalities. Engineered a sophisticated sensor fusion algorithm to enhance environmental perception, significantly improving the system's ability to detect and respond to potential hazards. Implemented a real-time control system for distraction intervention, leveraging MATLAB for algorithm development and STM microcontrollers for hardware integration. This project showcased the potential for cutting-edge technology to improve road safety and pave the way for future autonomous driving systems.",
+    tech_stack: ["MATLAB", "STM microcontrollers", "C++", "Sensor Fusion", "Real-time Systems", "Computer Vision", "Machine Learning", "Signal Processing"],
     github_url: "",
-    demo_url: "https://youknowtheending.net/",
+    demo_url: "",
   },
   {
-    img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShT2Lw0tbT9JqXW_dHEXT-gpLrfCqyx2i7oQ&s",
+    title: "Women Safety Device (KAVACH)",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
+      "Engineered an innovative women's safety device named KAVACH, addressing the critical need for personal security. The device incorporates advanced pulse rate monitoring and distance-based threat detection algorithms to identify potential danger situations. Implemented GPS technology for real-time location tracking, allowing for precise positioning in emergency scenarios. Integrated GSM module for seamless communication with authorities, ensuring rapid response times. The project received an 'A' grade from the National Institute of Engineering department of electronics and communication engineering, Mysuru, recognizing its potential impact on women's safety.",
+    tech_stack: ["GPS", "GSM", "Embedded C", "Microcontrollers", "Sensor Integration", "IoT", "PCB Design", "Power Management"],
     github_url: "",
-    demo_url: "https://renr-bcit.web.app/",
+    demo_url: "",
   },
   {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZHsachfWXGnsjybAk10zh6XxoOyyk1nL4Q&s",
+    title: "AC Power Meter | IoT Power Monitoring System",
     description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
-  },
-  {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
-    description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
-  },
-  {
-    img: "/jobDetect.png",
-    title: "JobDetect",
-    description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://jobdetective.onrender.com/",
+      "Developed a sophisticated IoT Power Monitoring System for Harman International, showcasing expertise in both hardware and software integration. Utilized NodeMCU mini as the core microcontroller and PZEM-004Tv30 for accurate power measurements. Implemented MQTT protocol for efficient and reliable cloud platform communication, enabling real-time data transmission and analysis. Engineered robust error handling mechanisms to ensure system reliability under various operating conditions. This project demonstrates the practical application of IoT technology in energy management and industrial monitoring systems.",
+    tech_stack: ["NodeMCU", "MQTT", "IoT", "Embedded C", "ESP8266", "Cloud Computing", "PZEM-004Tv30", "Arduino IDE", "Power Electronics", "Data Visualization"],
+    github_url: "",
+    demo_url: "",
   },
 ];
 
